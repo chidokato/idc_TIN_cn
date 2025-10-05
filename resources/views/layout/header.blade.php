@@ -1,6 +1,6 @@
-<!------------------- NAVIGATOR ------------------->
+<!------------------- 导航栏 ------------------->
 <header class="navhome" id="header">
-    <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Ninth navbar example">
+    <nav class="navbar navbar-expand-lg navbar-dark" aria-label="第九导航示例">
         <div class="container">
           
           <div class="toggle-menu" data-bs-toggle="button">
@@ -16,7 +16,7 @@
           <div class="navbar-collapse flex-grow-1" id="navbarsExample07XL">
             <ul class="collapse navbar-nav mb-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="{{asset('')}}">Home</a>
+                    <a class="nav-link" href="{{asset('')}}">首页</a>
                 </li>
                 @foreach($menu as $key => $val)
                     @if($val->parent == 0)
@@ -52,14 +52,14 @@
                     </div>
                 </li>
                 <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="news.htm" data-bs-toggle="dropdown" onclick="myFunctLink(this)">Tin tức</a>
+                    <a class="nav-link dropdown-toggle" href="news.htm" data-bs-toggle="dropdown" onclick="myFunctLink(this)">新闻资讯</a>
                     <a class="expand dropdown-toggle d-lg-none" href="#" data-bs-toggle="dropdown"></a>
                     <div class="dropdown-menu">
                         <ul>
-                            <li><a href="#" class="submenu-link"><i class="icon-next me-2"></i>Tin phong thủy</a></li>
-                            <li><a href="#" class="submenu-link"><i class="icon-next me-2"></i>Thẩm định giá</a></li>
-                            <li><a href="#" class="submenu-link"><i class="icon-next me-2"></i>Dịch vụ công chứng</a></li>
-                            <li><a href="#" class="submenu-link"><i class="icon-next me-2"></i>Quy hoạch đô thị</a></li>
+                            <li><a href="#" class="submenu-link"><i class="icon-next me-2"></i>风水资讯</a></li>
+                            <li><a href="#" class="submenu-link"><i class="icon-next me-2"></i>房价评估</a></li>
+                            <li><a href="#" class="submenu-link"><i class="icon-next me-2"></i>公证服务</a></li>
+                            <li><a href="#" class="submenu-link"><i class="icon-next me-2"></i>城市规划</a></li>
                         </ul>
                     </div>
                 </li> -->
@@ -70,4 +70,4 @@
         </div>
       </nav>
 </header>
-<!------------------- END NAVIGATOR ------------------->
+<!------------------- 导航栏结束 ------------------->

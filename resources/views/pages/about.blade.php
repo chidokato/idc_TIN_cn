@@ -15,18 +15,18 @@
         <img src="assets/images/gioithieu/slider.jpg">
     </div>
     <div class="title">
-        <h1>About the Company</h1>
+        <h1>关于公司</h1>
     </div>
 </section>
 
 <section class="section2">
     <div class="menu">
         <ul>
-            <li> <a class="nav-link" href="#gioithieu">About Us</a> </li>
-            <li> <a class="nav-link" href="#tamnhin">Vision & Mission</a> </li>
-            <li> <a class="nav-link" href="#muctieu">Strategic Goals</a> </li>
-            <li> <a class="nav-link" href="#dichvu">Services</a> </li>
-            <li> <a class="nav-link" href="#lanhdao">Leadership Team</a> </li>
+            <li> <a class="nav-link" href="#gioithieu">关于我们</a> </li>
+            <li> <a class="nav-link" href="#tamnhin">愿景与使命</a> </li>
+            <li> <a class="nav-link" href="#muctieu">战略目标</a> </li>
+            <li> <a class="nav-link" href="#dichvu">服务</a> </li>
+            <li> <a class="nav-link" href="#lanhdao">领导团队</a> </li>
         </ul>
     </div>
 </section>
@@ -42,9 +42,9 @@
                 </div>
                 <div class="col-md-8">
                     <div class="content">
-                        <p>Founded from passion, built on aspiration, and nurtured by dedication, INDOCHINE Real Estate JSC is rising to become one of the leading real estate enterprises in Vietnam.</p>
-                        <p>In 2022, the real estate market endured an unprecedented downturn, forcing hundreds of property companies to close, dissolve, or downsize. Seizing the moment with sharp foresight, INDOCHINE turned challenges into opportunities and made its official debut with a grand launch event, marking the rise of a ‘new star’ in the industry. Backed by proven results, INDOCHINE quickly made waves across the market with hundreds of successful transactions, pioneering efforts to ‘break the ice’ in a frozen real estate landscape. Building on this momentum, INDOCHINE has continued to grow remarkably, rightfully earning its reputation as the ‘dark horse’ of Vietnam’s real estate market.</p>
-                        <p>In particular, INDOCHINE takes pride in being among the first enterprises to bring Vietnamese real estate onto the global stage, pioneering in providing comprehensive real estate services for international clients seeking to settle or invest in Vietnam. With capability, passion, professionalism, and deep market insight, INDOCHINE promises to be a trusted bridge, delivering to our valued clients and investors exceptional properties of outstanding value and high liquidity.</p>
+                        <p>INDOCHINE房地产股份公司怀着热情、以抱负为基石、以专注为养分，正在崛起为越南领先的房地产企业之一。</p>
+                        <p>2022年，房地产市场经历了前所未有的低迷，数百家房地产公司被迫关闭、解散或缩小规模。INDOCHINE凭借敏锐的远见抓住机遇，将挑战转化为契机，并以盛大的发布活动正式亮相，标志着行业“新星”的崛起。凭借成功的业绩，INDOCHINE迅速在市场上掀起波澜，完成数百笔交易，开创了在冻结的房地产市场“破冰”的先河。在此势头下，INDOCHINE持续显著增长，理所当然地赢得了越南房地产市场“黑马”的美誉。</p>
+                        <p>特别是，INDOCHINE自豪地成为首批将越南房地产推向国际舞台的企业之一，率先为寻求在越南定居或投资的国际客户提供全面的房地产服务。凭借能力、热情、专业精神和深刻的市场洞察力，INDOCHINE承诺成为值得信赖的桥梁，为尊贵的客户和投资者提供卓越价值和高流动性的优质物业。</p>
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2>Leading Real Estate Developer & Distributor</h2>
+                    <h2>领先的房地产开发与分销商</h2>
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="assets/images/gioithieu/quymo-02.png"></div>
@@ -67,7 +67,6 @@
                         </div>
                         <div class="swiper-pagination"></div>
                     </div>
-                   
                 </div>
             </div>
         </div>
@@ -85,11 +84,11 @@
                     <div class="content">
                         <div class="title">
                             <img src="assets/images/gioithieu/tam-nhin-1.png">
-                            <h3>Vision</h3>
+                            <h3>愿景</h3>
                         </div>
-                        <p>Trở thành đơn vị phân phối, cho thuê và quản lý các sản phẩm bất động sản năng động, linh hoạt tại Việt Nam & Quốc tế.</p>
-                        <p>To become a leading enterprise in digital transformation and creating exceptional value.</p>
-                        <p>To be the top choice real estate developer and distributor in Vietnam.</p>
+                        <p>成为越南及国际市场中，灵活、动态的房地产产品分销、租赁和管理的领先企业。</p>
+                        <p>成为数字化转型领域的领先企业，创造卓越价值。</p>
+                        <p>成为越南房地产开发和分销的首选企业。</p>
                     </div>
                 </div>
             </div>
@@ -104,9 +103,9 @@
                         <div class="img"><img src="assets/images/gioithieu/bg_sumenh.png"></div>
                         <div class="text">
                             <img class="icon" src="assets/images/gioithieu/icon_su menh.png">
-                            <p>To provide superior products and services, enhance quality of life, and increase value for customers</p>
-                            <p>To deliver professional services and perfect solutions</p>
-                            <p>To adhere to the highest standards of business ethics and social responsibility, creating pride in a successful real estate brand</p>
+                            <p>提供卓越的产品和服务，提高生活质量，增加客户价值</p>
+                            <p>提供专业服务和完善解决方案</p>
+                            <p>坚持最高商业道德和社会责任标准，打造值得骄傲的成功房地产品牌</p>
                         </div>
                     </div>
                 </div>
@@ -121,10 +120,10 @@
             <div class="row">
                 <div class="col-12">
                     <div class="img"> <img src="assets/images/icon_muctieu.png"> </div>
-                    <h2>Strategic Goals</h2>
-                    <p>In the next five years, to become a leading enterprise in Vietnam in real estate investment, trading, distribution, and leasing</p>
-                    <p>To continuously refine and professionalize services, creating the best and most suitable values</p>
-                    <p>Service business will be the spearhead sector driving Indochine’s entry into the international market</p>
+                    <h2>战略目标</h2>
+                    <p>未来五年，成为越南房地产投资、交易、分销和租赁的领先企业</p>
+                    <p>持续优化和专业化服务，创造最佳且最合适的价值</p>
+                    <p>服务业务将成为推动Indochine进入国际市场的先锋部门</p>
                 </div>
             </div>
         </div>
@@ -135,30 +134,30 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2>Comprehensive Real Estate Services</h2>
-                <h3>ONE-STOP REAL ESTATE SERVICE</h3>
+                <h2>综合房地产服务</h2>
+                <h3>一站式房地产服务</h3>
 
                 <div class="swiper mySwiper1">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide iteam1">
-                            <h4>DEVELOPMENT</h4>
-                            <p>Real Estate Project Development and Business</p>
+                            <h4>开发</h4>
+                            <p>房地产项目开发与运营</p>
                         </div>
                         <div class="swiper-slide iteam2">
-                            <h4>CONSULTING</h4>
-                            <p>Real Estate Project Brand Strategy & Marketing Consulting</p>
+                            <h4>咨询</h4>
+                            <p>房地产项目品牌策略与营销咨询</p>
                         </div>
                         <div class="swiper-slide iteam3">
-                            <h4>PROPERTY</h4>
-                            <p>Real Estate Project Distribution & Leasing</p>
+                            <h4>物业</h4>
+                            <p>房地产项目分销与租赁</p>
                         </div>
                         <div class="swiper-slide iteam4">
-                            <h4>HOSPITALITY</h4>
-                            <p>Real Estate Operations & Management</p>
+                            <h4>酒店管理</h4>
+                            <p>房地产运营与管理</p>
                         </div>
                         <div class="swiper-slide iteam5">
-                            <h4>GLOBAL</h4>
-                            <p>Comprehensive Real Estate Services for International Clients</p>
+                            <h4>国际业务</h4>
+                            <p>为国际客户提供全面的房地产服务</p>
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -173,7 +172,7 @@
 <div id="lanhdao">
 <section class="section9">
     <div class="container">
-        <h2>Leadership Team</h2>
+        <h2>领导团队</h2>
         <div class="row hangle" style="background:url(assets/images/gioithieu/bg_lanhdao1.png); background-size: cover;">
             <div class="col-md-1"></div>
             <div class="col-md-5">
@@ -181,19 +180,19 @@
                     <div class="timeline-entry">
                         <div class="timeline-time">2006 - 2020</div>
                         <div class="timeline-content">
-                            <p>Holding senior leadership positions at leading real estate corporations in Vietnam, such as Novaland, FLC Group, Dat Xanh Group, and Dat Xanh Northern,...</p>
+                            <p>在越南领先房地产公司担任高级管理职位，如Novaland、FLC集团、Dat Xanh集团和Dat Xanh北部分公司...</p>
                         </div>
                     </div>
                     <div class="timeline-entry">
-                        <div class="timeline-time">Năm 2021</div>
+                        <div class="timeline-time">2021年</div>
                         <div class="timeline-content">
-                            <p>Founder of the Vietnam Homes Group brand</p>
+                            <p>成立Vietnam Homes Group品牌</p>
                         </div>
                     </div>
                     <div class="timeline-entry">
-                        <div class="timeline-time">Năm 2022</div>
+                        <div class="timeline-time">2022年</div>
                         <div class="timeline-content">
-                            <p>Founder of the INDOCHINE Real Estate brand</p>
+                            <p>成立INDOCHINE房地产品牌</p>
                         </div>
                     </div>
                 </div>
@@ -201,8 +200,8 @@
             <div class="col-md-4">
                 <div class="info">
                     <div class="img"> <img src="assets/images/gioithieu/C-Hang.png"> </div>
-                    <div class="name">BÀ LÊ THỊ HẰNG</div>
-                    <div class="function"> Chief Executive Officer <br> INDOCHINE Real Estate Joint Stock Company </div>
+                    <div class="name">LÊ THỊ HẰNG女士</div>
+                    <div class="function"> 首席执行官 <br> INDOCHINE房地产股份公司 </div>
                 </div>
             </div>
         </div>
@@ -211,8 +210,8 @@
             <div class="col-md-4">
                 <div class="info">
                     <div class="img"> <img src="assets/images/gioithieu/hai-anh.png"> </div>
-                    <div class="name">ÔNG NGUYỄN HẢI ANH</div>
-                    <div class="function"> Business Director <br> INDOCHINE Real Estate Joint Stock Company </div>
+                    <div class="name">NGUYỄN HẢI ANH先生</div>
+                    <div class="function"> 业务总监 <br> INDOCHINE房地产股份公司 </div>
                 </div>
             </div>
             <div class="col-md-5">
@@ -220,19 +219,19 @@
                     <div class="timeline-entry">
                         <div class="timeline-time">2013 - 2021</div>
                         <div class="timeline-content">
-                            <p>Ministry of Agriculture and Rural Development</p>
+                            <p>越南农业与农村发展部</p>
                         </div>
                     </div>
                     <div class="timeline-entry">
                         <div class="timeline-time">2021 - 2022</div>
                         <div class="timeline-content">
-                            <p>Head of Sales Department – Dat Xanh Mien Bac</p>
+                            <p>北部分销部门主管 – Dat Xanh</p>
                         </div>
                     </div>
                     <div class="timeline-entry">
-                        <div class="timeline-time">2022 - Nay</div>
+                        <div class="timeline-time">2022 - 至今</div>
                         <div class="timeline-content">
-                            <p>Sales Director <br> INDOCHINE Real Estate Joint Stock Company </p>
+                            <p>销售总监 <br> INDOCHINE房地产股份公司 </p>
                         </div>
                     </div>
                 </div>
@@ -246,7 +245,6 @@
 @endsection
 
 @section('js')
-
 <script>
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 6,
@@ -256,26 +254,10 @@ var swiper = new Swiper(".mySwiper", {
         clickable: true,
     },
     breakpoints: {
-        // khi màn hình có chiều rộng từ 0px trở lên
-        0: {
-            slidesPerView: 2,
-            spaceBetween: 10,
-        },
-        // khi màn hình có chiều rộng từ 640px trở lên
-        640: {
-            slidesPerView: 4,
-            spaceBetween: 20,
-        },
-        // khi màn hình có chiều rộng từ 768px trở lên
-        768: {
-            slidesPerView: 5,
-            spaceBetween: 25,
-        },
-        // khi màn hình có chiều rộng từ 1024px trở lên
-        1024: {
-            slidesPerView: 6,
-            spaceBetween: 30,
-        },
+        0: { slidesPerView: 2, spaceBetween: 10 },
+        640: { slidesPerView: 4, spaceBetween: 20 },
+        768: { slidesPerView: 5, spaceBetween: 25 },
+        1024: { slidesPerView: 6, spaceBetween: 30 },
     }
 });
 
@@ -287,26 +269,10 @@ var swiper = new Swiper(".mySwiper1", {
         clickable: true,
     },
     breakpoints: {
-        // khi màn hình có chiều rộng từ 0px trở lên
-        0: {
-            slidesPerView: 2,
-            spaceBetween: 10,
-        },
-        // khi màn hình có chiều rộng từ 640px trở lên
-        640: {
-            slidesPerView: 3,
-            spaceBetween: 20,
-        },
-        // khi màn hình có chiều rộng từ 768px trở lên
-        768: {
-            slidesPerView: 4,
-            spaceBetween: 25,
-        },
-        // khi màn hình có chiều rộng từ 1024px trở lên
-        1024: {
-            slidesPerView: 5,
-            spaceBetween: 30,
-        },
+        0: { slidesPerView: 2, spaceBetween: 10 },
+        640: { slidesPerView: 3, spaceBetween: 20 },
+        768: { slidesPerView: 4, spaceBetween: 25 },
+        1024: { slidesPerView: 5, spaceBetween: 30 },
     }
 });
 
@@ -321,9 +287,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 var targetElement = document.getElementById(targetId);
 
                 if (targetElement) {
-                    targetElement.scrollIntoView({
-                        behavior: 'smooth'
-                    });
+                    targetElement.scrollIntoView({ behavior: 'smooth' });
                 }
             } else {
                 window.location.href = href;
@@ -350,6 +314,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
 function smoothScrollTo(target, duration, link) {
     var targetPosition = target.getBoundingClientRect().top + window.scrollY;
     var startPosition = window.scrollY;
@@ -365,7 +330,7 @@ function smoothScrollTo(target, duration, link) {
             requestAnimationFrame(animation);
         } else {
             window.scrollTo(0, targetPosition);
-            link.classList.add('active'); // Thêm lớp 'active' vào liên kết sau khi cuộn hoàn tất
+            link.classList.add('active');
         }
     }
 
