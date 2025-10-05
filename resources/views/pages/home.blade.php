@@ -18,7 +18,9 @@
         <div class="swiper">
             <div class="swiper-wrapper">
                 @foreach($slider as $val)
-                <div class="swiper-slide"><span style='background-image: url("data/images/{{$val->img}}")' class="w-100 thumb"></span></div>
+                <div class="swiper-slide">
+                    <span style='background-image: url("data/images/{{$val->img}}")' class="w-100 thumb"></span>
+                </div>
                 @endforeach
             </div>
             <div class="swiper-navigator">
@@ -30,9 +32,7 @@
             </div>
         </div>
     </div>
-    
 </section>
-
 
 <!------------------- PRODUCT RENT ------------------->
 <section class="sec-product-rent">
@@ -40,10 +40,10 @@
         <div class="cover-title-home">
             <div class="text-start">
                 <div class="cover-title">
-                    <h2><span class="cover-title-filled text-main">Flagship Projects</span></h2>
+                    <h2><span class="cover-title-filled text-main">旗舰项目</span></h2>
                 </div>
                 <div class="cover-descip">
-                    <p>Signature projects by INDOCHINE, exclusively developed, managed, and distributed by INDOCHINE</p>
+                    <p>INDOCHINE 签署的标志性项目，由 INDOCHINE 独家开发、管理和分销</p>
                 </div>
             </div>
         </div>
@@ -59,7 +59,7 @@
                     </div>
                     @endforeach
                 </div>
-                <div class="swiper-pagination "></div>
+                <div class="swiper-pagination"></div>
             </div>
             <div class="swiper-button-next d-none d-lg-flex d-lg-none"></div>
             <div class="swiper-button-prev d-none d-lg-flex d-lg-none"></div>
@@ -67,7 +67,10 @@
 
         <div class="load-more text-center mt-4 pt-2">
             <div class="cta-btn ir">
-                <a class="" target="_blank" href="du-an"><span class="cta-text font-weight-semibold">View All</span><span class="cta-ico"><i class="icon-next"></i></span></a>
+                <a class="" target="_blank" href="du-an">
+                    <span class="cta-text font-weight-semibold">查看全部</span>
+                    <span class="cta-ico"><i class="icon-next"></i></span>
+                </a>
             </div>
         </div>
     </div>
@@ -79,7 +82,7 @@
         <div class="cover-title-home">
             <div class="text-start">
                 <div class="cover-title">
-                    <h2><span class="cover-title-filled text-main">Nationwide Projects</span></h2>
+                    <h2><span class="cover-title-filled text-main">全国项目</span></h2>
                 </div>
             </div>
         </div>
@@ -90,19 +93,23 @@
                 <div class="col-lg-3">
                     <div class="card-overlay-flex">
                         <a class="card-overlay card-overlay-sm outline-effect" href="location/{{$provinces[$key]->slug}}">
-                            <span class="card-overlay-img"><img src="assets/images/space-2.gif" alt="" class="w-100 thumb" style="background-image: url('data/images/{{$provinces[$key]->img}}');"></span>
+                            <span class="card-overlay-img">
+                                <img src="assets/images/space-2.gif" alt="" class="w-100 thumb" style="background-image: url('data/images/{{$provinces[$key]->img}}');">
+                            </span>
                             <div class="card-overlay-body">
                                 <h2><span>{{$provinces[$key]->name}}</span></h2>
-                                <div>{{ count($provinces[$key]->Post) }} Products</div>
+                                <div>{{ count($provinces[$key]->Post) }} 个产品</div>
                             </div>
                         </a>
                     </div>
                     <div class="card-overlay-flex">
                         <a class="card-overlay card-overlay-sm outline-effect" href="location/{{$provinces[$key+1]->slug}}">
-                            <span class="card-overlay-img"><img src="assets/images/space-2.gif" alt="" class="w-100 thumb" style="background-image: url('data/images/{{$provinces[$key+1]->img}}');"></span>
+                            <span class="card-overlay-img">
+                                <img src="assets/images/space-2.gif" alt="" class="w-100 thumb" style="background-image: url('data/images/{{$provinces[$key+1]->img}}');">
+                            </span>
                             <div class="card-overlay-body">
                                 <h2><span>{{$provinces[$key+1]->name}}</span></h2>
-                                <div>{{ count($provinces[$key+1]->Post) }} Products</div>
+                                <div>{{ count($provinces[$key+1]->Post) }} 个产品</div>
                             </div>
                         </a>
                     </div>
@@ -113,17 +120,17 @@
         </div>
     </div>
 </section>
-<!------------------- END SERVICE ------------------->
 
+<!------------------- NEWS ------------------->
 <section class="sec-productcity-hp tintuc">
     <div class="container position-relative">
         <div class="cover-title-home">
             <div class="text-start">
                 <div class="cover-title">
-                    <h2><span class="cover-title-filled text-main">News</span></h2>
+                    <h2><span class="cover-title-filled text-main">新闻</span></h2>
                 </div>
                 <div class="cover-descip">
-                    <p>Get the latest updates from INDOCHINE and the real estate market</p>
+                    <p>获取 INDOCHINE 及房地产市场的最新动态</p>
                 </div>
             </div>
         </div>
@@ -134,7 +141,9 @@
                 <div class="col-md-6">
                     <div class="card-overlay-flex">
                         <a class="card-overlay card-overlay-sm outline-effect" href="{{$val->category->slug}}/{{$val->slug}}">
-                            <span class="card-overlay-img"><img src="assets/images/space-3.gif" alt="" class="w-100 thumb" style="background-image: url('data/images/{{$val->img}}');"></span>
+                            <span class="card-overlay-img">
+                                <img src="assets/images/space-3.gif" alt="" class="w-100 thumb" style="background-image: url('data/images/{{$val->img}}');">
+                            </span>
                             <div class="card-overlay-body">
                                 <h3>{{$val->name}}</h3>
                                 <div class="description text-truncate-set text-truncate-set-2">{{$val->detail}}</div>
@@ -148,9 +157,11 @@
                     @foreach($news as $key => $val)
                     @if($key>0)
                     <a href="{{$val->category->slug}}/{{$val->slug}}" class="news-item">
-                        <span><img src="assets/images/space-1.gif" style="background-image: url('data/images/{{$val->img}}')" alt="" class="w-100 thumb"></span>
+                        <span>
+                            <img src="assets/images/space-1.gif" style="background-image: url('data/images/{{$val->img}}')" alt="" class="w-100 thumb">
+                        </span>
                         <div class="news-item-body">
-                            <p class="mb-0 text-truncate-set text-truncate-set-3">{{$val->name}} </p>
+                            <p class="mb-0 text-truncate-set text-truncate-set-3">{{$val->name}}</p>
                         </div>
                     </a>
                     @endif
@@ -160,7 +171,10 @@
         </div>
         <div class="load-more text-center mt-4 pt-2">
             <div class="cta-btn ir">
-                <a class="" href="tin-tuc"><span class="cta-text font-weight-semibold">View all</span><span class="cta-ico"><i class="icon-next"></i></span></a>
+                <a class="" href="tin-tuc">
+                    <span class="cta-text font-weight-semibold">查看全部</span>
+                    <span class="cta-ico"><i class="icon-next"></i></span>
+                </a>
             </div>
         </div>
     </div>
