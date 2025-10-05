@@ -16,12 +16,12 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <!-- Breadcrumb -->
+                <!-- 面包屑导航 -->
                 <section class="sec-breadcrumb">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="{{asset('')}}">Indochine</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">News</li>
+                        <li class="breadcrumb-item"><a href="{{asset('')}}">印支地产</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">新闻</li>
                         </ol>
                     </nav>
                 </section>
@@ -32,9 +32,9 @@
                         <div class="col-lg-6">
                             <div class="input-group search-input">
                                 <span class="input-group-text border100"><i class="icon-search"></i></span>
-                                <input type="text" name="key" value="{{ request()->key ?? '' }}" class="form-control" placeholder="Enter keyword">
+                                <input type="text" name="key" value="{{ request()->key ?? '' }}" class="form-control" placeholder="输入关键词">
                             </div>
-                            <button type="submit" class="btn btn-circle">Search</button>
+                            <button type="submit" class="btn btn-circle">搜索</button>
                         </div>
                     </div>
                 </form>
@@ -48,7 +48,7 @@
         <h3 class="text-uppercase title-subpage">{{ $data->name }}</h3>
         <div class="row">
             <div class="col-lg-9">
-                <!-- Highlighted News -->
+                <!-- 精选新闻 -->
                 <div class="news-hightlight">
                     <div class="row">
                         <div class="col-md-12">
@@ -74,7 +74,7 @@
                     </div>
                 </div>
 
-                <!-- Regular News List -->
+                <!-- 普通新闻列表 -->
                 <div class="row row-cols-1 g-4 horizontal-view" id="show-setting">
                     @foreach($posts as $key => $val)
                     @if($key > 2)
@@ -88,7 +88,7 @@
                                     <h5 class="card-title"><a href="{{$val->category->slug}}/{{$val->slug}}">{{$val->name}}</a></h5>
                                     <div class="card-info">
                                         <span><i class="icon-time me-2"></i>{{ date_format($val->updated_at,"d/m/Y") }}</span>
-                                        <span><i class="icon-user me-2"></i>{{ optional($val->User)->yourname ?? 'User' }}</span>
+                                        <span><i class="icon-user me-2"></i>{{ optional($val->User)->yourname ?? '用户' }}</span>
                                     </div>
                                     <p class="mb-0 text-truncate-set text-truncate-set-3">{{$val->detail}}</p>
                                 </div>
@@ -100,17 +100,17 @@
                 </div>
             </div>
 
-            <!-- Sidebar -->
+            <!-- 侧边栏 -->
             <div class="col-lg-3 d-none d-lg-block">
                 <div class="widget widget-list mb-3">
                     <ul>
-                        <li><a href="market-news"><i class="icon-next me-2"></i>Market News</a></li>
-                        <li><a href="internal-news"><i class="icon-next me-2"></i>Internal News</a></li>
+                        <li><a href="market-news"><i class="icon-next me-2"></i>市场新闻</a></li>
+                        <li><a href="internal-news"><i class="icon-next me-2"></i>内部新闻</a></li>
                     </ul>
                 </div>
 
                 <div class="widget widget-list widget-news mb-3">
-                    <h4><span>Most Viewed News</span></h4>
+                    <h4><span>最受关注新闻</span></h4>
                     @foreach($posts as $key => $val)
                     @if($key == 0)
                     <a href="{{$val->category->slug}}/{{$val->slug}}" class="news-item-captain">

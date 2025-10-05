@@ -12,22 +12,22 @@
 @endsection
 
 @section('content')
-<!------------------- BREADCRUMB ------------------->
+<!-- 面包屑导航 -->
 <section class="sec-breadcrumb">
     <div class="container">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="{{asset('')}}">Indochine</a></li>
+            <li class="breadcrumb-item"><a href="{{asset('')}}">印支地产</a></li>
             <li class="breadcrumb-item"><a href="{{$post->category->slug}}">{{$post->category->name}}</a></li>
             <li class="breadcrumb-item active" aria-current="page">{{$post->name}}</li>
             </ol>
         </nav>
     </div>
 </section>
-<!------------------- END: BREADCRUMB ------------------->
+<!-- 面包屑导航结束 -->
+
 <section class="card-grid news-sec">
     <div class="container">
-        
         <div class="row">
             <div class="col-lg-9">
                 <h1 class="title-subpage">{{ $post->name }}</h1>
@@ -42,21 +42,20 @@
                         @endforeach
                     </div>
                 </div>
-                
             </div>
-            <div class="col-lg-3 d-none d-lg-block">
 
+            <div class="col-lg-3 d-none d-lg-block">
+                <!-- 新闻分类 -->
                 <div class="widget widget-list mb-3">
-                    <!-- <h4><span>Tin tức</span></h4> -->
                     <ul>
-                        <li><a href="market-news"><i class="icon-next me-2"></i>Market News</a></li>
-                        <li><a href="internal-news"><i class="icon-next me-2"></i>Internal News</a></li>
+                        <li><a href="market-news"><i class="icon-next me-2"></i>市场新闻</a></li>
+                        <li><a href="internal-news"><i class="icon-next me-2"></i>内部新闻</a></li>
                     </ul>
                 </div>
 
-                
+                <!-- 热门新闻 -->
                 <div class="widget widget-list widget-news mb-3">
-                    <h4><span>Tin xem nhiều</span></h4>
+                    <h4><span>热门新闻</span></h4>
                     @foreach($related_post as $key => $val)
                     @if($key == 0)
                     <a href="{{$val->category->slug}}/{{$val->slug}}" class="news-item-captain">
@@ -68,7 +67,7 @@
                         </div>
                         <div class="news-item-captain-body">
                             <h5>{{$val->name}}</h5>
-                            <p class="mb-0  text-truncate-set text-truncate-set-2">Chính chủ cần chuyển nhượng gấp căn 2 ngủ diện tích thông thủy 78m2 full đồ, khách mua chỉ cần dọn quần áo đến có thể ở ngay</p>
+                            <p class="mb-0  text-truncate-set text-truncate-set-2">业主急需转让两居室，建筑面积78㎡，全套家具，买家只需拎包入住</p>
                         </div>
                     </a>
                     @else
@@ -82,13 +81,13 @@
                     @endif
                     @endforeach
                 </div>
-
             </div>
         </div>
     </div>
 </section>
-<!------------------- END CARD ------------------->
+<!-- 新闻卡片结束 -->
 
 @endsection
+
 @section('script')
 @endsection
