@@ -67,7 +67,7 @@
 
         <div class="load-more text-center mt-4 pt-2">
             <div class="cta-btn ir">
-                <a class="" target="_blank" href="du-an">
+                <a class="" target="_blank" href="projects">
                     <span class="cta-text font-weight-semibold">查看全部</span>
                     <span class="cta-ico"><i class="icon-next"></i></span>
                 </a>
@@ -171,7 +171,7 @@
         </div>
         <div class="load-more text-center mt-4 pt-2">
             <div class="cta-btn ir">
-                <a class="" href="tin-tuc">
+                <a class="" href="news">
                     <span class="cta-text font-weight-semibold">查看全部</span>
                     <span class="cta-ico"><i class="icon-next"></i></span>
                 </a>
