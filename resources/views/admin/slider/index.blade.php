@@ -36,7 +36,6 @@
                                 <td>
                                     <div><a href="{{route('slider.edit',[$val->id])}}" class="mr-2">{{$val->name}}</a></div>
                                     <div>{{$val->content}}</div>
-                                    <div>User: {{$val->User->yourname}}</div>
                                     <div>Date: {{$val->updated_at}}</div>
                                 </td>
                                 <td>
