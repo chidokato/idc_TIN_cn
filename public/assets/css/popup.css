@@ -103,3 +103,10 @@
         transform: translateY(0);
     }
 }
+
+
+
+@media (max-width: 480px) {
+    .wechat-mini-popup{ right: 20px; }
+    .wechat-mini-popup::after{ right:30px }
+}
