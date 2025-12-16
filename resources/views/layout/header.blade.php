@@ -53,7 +53,7 @@
                             <a title="English" target="{{ asset('') }}" href=""><img src="assets/images/lang/cn.avif"></a>
                             <a class="expand dropdown-toggle d-lg-none" href="#" data-bs-toggle="dropdown"></a>
                             <div class="dropdown-menu">
-                                <div><a href="https://cn.vietnampropertymarket.com/"><img src="assets/images/lang/cn.avif"> 中文</a></div>
+                                <div class="mb-2"><a href="https://cn.vietnampropertymarket.com/"><img src="assets/images/lang/cn.avif"> 中文</a></div>
                                 <div class="mb-2"><a href="https://vietnampropertymarket.com/"><img src="assets/images/lang/en.avif"> English</a></div>
                                 <div class="mb-2"><a href="https://kr.vietnampropertymarket.com/"><img src="assets/images/lang/kr.avif"> 한국어</a></div>
                                 
