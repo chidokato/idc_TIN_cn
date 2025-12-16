@@ -103,3 +103,24 @@
         }
     });
 </script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+    const btns = document.querySelectorAll('.click_wechat');
+    const popup = document.getElementById('wechatMiniPopup');
+
+    btns.forEach(btn => {
+        btn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            popup.style.display = 
+                popup.style.display === 'block' ? 'none' : 'block';
+        });
+    });
+
+    // Click ra ngoài thì ẩn
+    document.addEventListener('click', function () {
+        popup.style.display = 'none';
+    });
+
+});
+</script>
