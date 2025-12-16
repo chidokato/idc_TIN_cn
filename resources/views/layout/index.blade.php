@@ -60,6 +60,8 @@
     </script>
 
     @yield('css')
+
+    {!! $setting->header !!}
     
 </head>
 
@@ -93,6 +95,8 @@
     </div>
     @endif
 
+    {!! $setting->footer !!}
+    
 </body>
 
 </html>
