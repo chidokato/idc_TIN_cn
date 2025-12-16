@@ -107,6 +107,6 @@
 
 
 @media (max-width: 480px) {
-    .wechat-mini-popup{ right: 20px; }
-    .wechat-mini-popup::after{ right:30px }
+    .wechat-mini-popup{ right: 20px; left:auto; }
+    .wechat-mini-popup::after{ right:30px; left:auto; }
 }
