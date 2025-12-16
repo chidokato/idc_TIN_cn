@@ -42,7 +42,8 @@ header nav li a.active.dropdown-toggle img, header nav li a.dropdown-toggle:hove
 
 header {background: var(--main-color); position: sticky; top: 0; width: 100%;}
 .scrollDown header, header.show {background: var(--main-color);}
-
+.language img{ border-radius:0 !important; height:22px !important; margin-top:4px }
+.language .dropdown-menu{ top:45px !important; padding-left:1rem; left:-1rem }
 .active .navbar-expand-lg .navbar-nav .nav-link {
     padding: 18px 0px;
 }

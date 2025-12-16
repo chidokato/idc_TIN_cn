@@ -49,6 +49,16 @@
                     <div class="icon-header">
                         <a target="_blank" href="{{$setting->facebook}}"><img src="assets/images/facebook-logo-icon.png"></a>
                         <a target="_blank" href="{{$setting->youtube}}"><img src="assets/images/youtube-logo-icon.png"></a>
+                        <div class="dropdown language">
+                            <a title="English" target="{{ asset('') }}" href=""><img src="assets/images/lang/cn.avif"></a>
+                            <a class="expand dropdown-toggle d-lg-none" href="#" data-bs-toggle="dropdown"></a>
+                            <div class="dropdown-menu">
+                                <div><a href="https://cn.vietnampropertymarket.com/"><img src="assets/images/lang/cn.avif"> 中文</a></div>
+                                <div class="mb-2"><a href="https://vietnampropertymarket.com/"><img src="assets/images/lang/en.avif"> English</a></div>
+                                <div class="mb-2"><a href="https://kr.vietnampropertymarket.com/"><img src="assets/images/lang/kr.avif"> 한국어</a></div>
+                                
+                            </div>
+                        </div>
                     </div>
                 </li>
                 <!-- <li class="nav-item dropdown">
