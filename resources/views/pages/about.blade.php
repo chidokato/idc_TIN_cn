@@ -284,7 +284,7 @@
             <div class="col-md-4">
                 <div class="info">
                     <div class="img mb-4"> <img style="height: 350px;" src="assets/images/gioithieu/avaa.jpg"> </div>
-                    <div class="name">Ms. Phạm Hải Yến</div>
+                    <div class="name">Ms. Jess Phạm</div>
                     <div class="function"> 中文业务部经理
                     </div>
                 </div>
