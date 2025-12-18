@@ -238,6 +238,82 @@
             </div>
             
         </div>
+
+        <div class="row hangle mt-5" style="background:url(assets/images/gioithieu/bg_lanhdao1.png); background-size: cover;">
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <div class="timeline">
+                    <div class="timeline-entry">
+                        <div class="timeline-time">2009 - 2016</div>
+                        <div class="timeline-content">
+                            <p>前 Kaplan 新加坡大学主修财务管理与工商管理的学生</p>
+                        </div>
+                    </div>
+                    <div class="timeline-entry">
+                        <div class="timeline-time">2016 - 2018</div>
+                        <div class="timeline-content">
+                            <p>建筑材料公司 Dung Thao Trading Ltd 的联合创始人</p>
+                        </div>
+                    </div>
+                    <div class="timeline-entry">
+                        <div class="timeline-time">2019 - 2020</div>
+                        <div class="timeline-content">
+                            <p>Dat Xanh Miền Bắc 房地产公司的国际销售部门负责人</p>
+                        </div>
+                    </div>
+                    <div class="timeline-entry">
+                        <div class="timeline-time">2021-2025</div>
+                        <div class="timeline-content">
+                            <p>工商管理硕士（MBA）—— Indochine 房地产股份公司国内及国际销售总监（胡志明市分公司）</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="info">
+                    <div class="img mb-4"> <img style="height: 350px;" src="assets/images/gioithieu/tin.png"> </div>
+                    <div class="name">Mr. PHẠM TRUNG TÍN</div>
+                    <div class="function"> 持有 MBA 学位证书 <br> 销售与数字营销总监
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row hangle mt-5" style="background:url(assets/images/gioithieu/bg_lanhdao1.png); background-size: cover;">
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <div class="info">
+                    <div class="img mb-4"> <img style="height: 350px;" src="assets/images/gioithieu/avaa.jpg"> </div>
+                    <div class="name">Ms. Phạm Hải Yến</div>
+                    <div class="function"> 中文业务部经理
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="timeline">
+                    <div class="timeline-entry">
+                        <div class="timeline-time">2016–2020</div>
+                        <div class="timeline-content">
+                            <p>河内大学 中文专业（本科）</p>
+                        </div>
+                    </div>
+                    <div class="timeline-entry">
+                        <div class="timeline-time">2020–2023</div>
+                        <div class="timeline-content">
+                            <p>INDOCHINE公司 - 中文业务销售专员</p>
+                        </div>
+                    </div>
+                    <div class="timeline-entry">
+                        <div class="timeline-time">2023–2025</div>
+                        <div class="timeline-content">
+                            <p>INDOCHINE公司 - 中文国际业务经理</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
     </div>
 </section>
 </div>
