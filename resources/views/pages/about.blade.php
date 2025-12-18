@@ -283,7 +283,7 @@
             <div class="col-md-1"></div>
             <div class="col-md-4">
                 <div class="info">
-                    <div class="img mb-4"> <img style="height: 350px;" src="assets/images/gioithieu/avaa.jpg"> </div>
+                    <div class="img mb-4"> <img style="height: 350px;" src="assets/images/gioithieu/yen.png"> </div>
                     <div class="name">Ms. Jess Phạm</div>
                     <div class="function"> 中文业务部经理
                     </div>
