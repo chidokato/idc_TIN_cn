@@ -4,7 +4,7 @@
         <div class="hotline-phone-ring-circle-fill"></div>
         <div class="hotline-phone-ring-img-circle click_wechat">
             <a href="javascript:void(0)" class="pps-btn-img">
-                <img style="width: 35px;height: 35px;border-radius: 100%;" src="assets/img/icon/wechat-tung.jpg" alt="Gọi điện thoại" width="50">
+                <img style="width: 35px;height: 35px;border-radius: 100%;" src="assets/img/icon/wechat.png" alt="Gọi điện thoại" width="50">
             </a>
         </div>
         <div class="hotline-bar click_wechat">
@@ -14,8 +14,8 @@
         </div>
     </div>
     <div class="wechat-mini-popup" id="wechatMiniPopup">
-        <img src="assets/img/icon/wechat-qr.jpg" alt="WeChat QR">
-        <p>ID: xiaoyan999</p>
+        <img src="assets/img/icon/wechat-tung.jpg" alt="WeChat QR">
+        <p>ID: tungpmh</p>
     </div>
 </div>
 
