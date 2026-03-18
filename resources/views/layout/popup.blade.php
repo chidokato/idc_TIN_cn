@@ -81,13 +81,13 @@
         @csrf
             <input type="hidden" id="current-url" name="url" value="">
             <label>
-                <input type="text" name="name" placeholder="全名 (*)">
+                <input type="text" name="name" placeholder="全名 (*)" required>
             </label>
             <label>
-                <input type="text" name="phone" placeholder="电话 (*)">
+                <input type="email" name="email" placeholder="邮箱 (*)" required>
             </label>
             <label>
-                <input type="text" name="email" placeholder="邮箱">
+                <input type="text" name="wechat" placeholder="Wechat/Kakaotalk ID (*)" required>
             </label>
             <p class="sub">(*) 点击“申请报价”即表示您同意我们的隐私政策。</p>
             <button class="btn btn-circle" type="submit">立即发送</button>
